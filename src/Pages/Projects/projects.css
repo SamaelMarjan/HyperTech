@@ -1,0 +1,28 @@
+.projects {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projects__card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.projects__card-item {
+    height: 200px;
+    padding: 15px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}

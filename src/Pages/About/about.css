@@ -1,0 +1,41 @@
+.about {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.about__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.react {
+    width: 50px;
+    height: 50px;
+}
+
+.about__text {
+    margin-bottom: 20px;
+}
+
+.about__button {
+    width: 30%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__button-g {
+    color: black;
+    height: 40px;
+    width: 120px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
